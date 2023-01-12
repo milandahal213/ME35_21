@@ -1,0 +1,16 @@
+te_arr)
+  
+# Bytearray allows modification
+# ASCII for exclamation mark
+some_bytes.append(33)
+  
+# Bytearray can be cast to bytes
+immutable_bytes = bytes(some_bytes)
+  
+# Write bytes to file
+with open("my_file.py", "wb") as bfile:
+    bfile.write(immutable_bytes)
+    bfile.write(immutable_bytes)
+    bfile.write(immutable_bytes)
+    
+    '
